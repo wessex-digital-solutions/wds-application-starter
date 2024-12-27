@@ -1,0 +1,17 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "extends": [
+    "//"
+  ],
+  "tasks": {
+    "dev": {
+      "env": [
+        "PORT",
+        "NODE_ENV",
+        "LOG_LEVEL",
+        "DATABASE_URL"
+      ],
+      "interactive": false
+    }
+  }
+}
